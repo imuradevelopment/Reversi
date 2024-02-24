@@ -7,6 +7,8 @@
 5. 自分と敵が互いに石を置けなくなればゲーム終了となる
 6. [実際にプレイする](https://imuradevelopment.github.io/Reversi/GAME/)
 
+**※ブラウザはGoogleChromeを推奨**  
+
 ## クレジット
 
 本プログラムは、次の書籍のサンプルプログラムをもとに開発されました。  
