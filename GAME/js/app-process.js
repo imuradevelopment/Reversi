@@ -6,6 +6,7 @@ appProcess.start = function() {
     appClick.addButton('Start', () => {
         appProcessEffect.execStart();   // 開始時演出実行
         appClick.addBoard();    // 盤面追加
+        this.update();  // デバッグ盤面用、ユーザー初手パス
     });
 };
 

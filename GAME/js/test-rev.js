@@ -9,9 +9,17 @@ testRev.outBoard = function(board) {
 
 // デバッグ用：デバッグ用データ設定（テスト盤面の代入）
 testRev.set = function(data) {
-    //data.board = gameUtil.deepClone(this.endWin);
-    //this.outBoard(data.board);
+    // data.board = gameUtil.deepClone(this.reproduction);
+    // this.outBoard(data.board);
 };
+testRev.reproduction =  [[0, 0, 0, 0, 0, 0, 0, 0],   // 盤面再現
+                        [0, 0, 0, 1, 0, 0, 0, 0],
+                        [0, 0, 0, 0, 0, 0, 0, 0],
+                        [0, 0, 1, 0, 0, 0, 0, 0],
+                        [0, 0, 0, 0, 0, 0, 0, 0],
+                        [0, 0, 0, 0, 1, 0, 0, 0],
+                        [0, 8, 0, 0, 0, 0, 0, 0],
+                        [8, 0, 0, 0, 0, 0, 1, 0]];
 
 testRev.endWin =   [[0, 0, 0, 0, 0, 0, 0, 0],   // 終了 勝利
                     [0, 0, 0, 0, 0, 0, 0, 0],
