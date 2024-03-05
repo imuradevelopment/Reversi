@@ -20,7 +20,7 @@ revCom.think = function(board, player, nest) {
             value += this.evalAround(x, y, board, player);  // 外周判定
         }
         value += this.evalNext(x, y, board, player, nest);  // 次手確認
-        if (value > max.value) max = {value, square};   // 最大時の更新
+        if (value > max.value || max.square === null) max = {value, square};   // 最大時の更新
     });
     return max;
 };
